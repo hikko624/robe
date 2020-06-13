@@ -3,6 +3,7 @@ require 'tmpdir'
 require 'socket'
 require 'webrick'
 require 'logger'
+require 'io/wait'
 
 module Robe
   class Server
